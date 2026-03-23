@@ -1,0 +1,15 @@
+# app_proj_software - Entrega 1
+
+## Integrantes
+- Matheus Gonçalves dos Santos 
+
+## Links
+- **Protótipo Figma**: [https://www.figma.com/proto/LXbTw6ZJXPxv2SDbjFjtoB/Design_UI_Projeto_de_Software?node-id=0-1&t=q9heX7yosbKJlOrK-1]
+
+## Fluxo Principal (Caminho Feliz)
+1. Usuário digita número de celular
+2. Recebe código por SMS e confirma
+3. Escolhe frutas, legumes e verduras
+4. Visualiza carrinho
+5. Realiza pagamento com cartão
+6. Recebe confirmação com protocolo de entrega
