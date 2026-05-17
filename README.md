@@ -7,8 +7,9 @@ O FeirAssina é um sistema de assinatura de cestas de feira com entrega domicili
 
 Projeto desenvolvido para a disciplina de Projeto de Software — Universidade Presbiteriana Mackenzie.
 
+***
 
-🏗️ Arquitetura
+# 🏗️ Arquitetura
 O sistema segue o padrão MVC com separação por responsabilidade (UML), composto por cinco camadas:
 EstereótipoDescrição<<boundary>>Interface / Tela (ponto de contato com o usuário)<<control>>Classes de Controle (lógica de aplicação)<<entity>>Entidades de Domínio (modelo de dados)<<service>>Serviços Externos (SMS, Gateway de Pagamento)<<repository>>Repositórios de Persistência (banco de dados)
 
@@ -43,8 +44,9 @@ PagamentoController processa via GatewayPagamento (serviço externo)
 Pagamento aprovado → assinatura marcada como ativa
 Assinante recebe número de protocolo
 
+***
 
-🧩 Componentes
+# 🧩 Componentes
 TelaAssinatura          → Boundary (UI principal)
 AuthController          → Autenticação via SMS
 AssinaturaController    → Gerencia plano e assinatura
@@ -64,6 +66,7 @@ AssinaturaRepository    → Persistência de assinaturas
 CestaRepository         → Persistência de cestas
 PagamentoRepository     → Persistência de pagamentos
 
+***
 
-👥 Equipe
+#👥 Equipe
 Desenvolvido por Matheus Gonçalves dos Santos
