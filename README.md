@@ -1,4 +1,4 @@
-🛒 Feira Assina
+# 🛒 Feira Assina
 
 Serviço de Assinatura de Feira com Entrega — Projeto de Software
 
@@ -67,6 +67,3 @@ PagamentoRepository     → Persistência de pagamentos
 
 👥 Equipe
 Desenvolvido por Matheus Gonçalves dos Santos
-
-📄 Licença
-Projeto acadêmico. Todos os direitos reservados.
