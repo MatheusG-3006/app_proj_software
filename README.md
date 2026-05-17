@@ -66,7 +66,34 @@ AssinaturaRepository    → Persistência de assinaturas
 CestaRepository         → Persistência de cestas
 PagamentoRepository     → Persistência de pagamentos
 
+*** 
+
+# 🚀 Como Executar
+Pré-requisitos
+
+Java 11+
+Terminal / linha de comando
+
+Compilar
+bashjavac -d out -sourcepath src $(find src -name "*.java")
+Executar
+bashjava -cp out feira.Main
 ***
 
-#👥 Equipe
-Desenvolvido por Matheus Gonçalves dos Santos
+🧪 Cenários de Execução
+O Main demonstra dois cenários automaticamente ao rodar:
+✅ Cenário 1 — Assinatura bem-sucedida (PIX)
+Fluxo completo com autenticação via OTP, seleção do plano Plus, montagem de cesta com 4 itens e pagamento aprovado via PIX:
+[PagamentoService] Pagamento APROVADO — TXN-F4FCDE42-A50
+
+╔══════════════════════════════════════════╗
+║  ✓ Assinatura ativada com sucesso!       ║
+║  Próxima entrega: 2026-05-24             ║
+╚══════════════════════════════════════════╝
+❌ Cenário 2 — Pagamento recusado (cartão inválido)
+Fluxo com plano Básico e tentativa de pagamento via cartão de crédito inválido:
+[PagamentoService] Pagamento RECUSADO. Tente novamente.
+[Main] Resultado: RECUSADO — Usuário deve tentar outro método.
+
+💳 Planos Disponíveis
+IDNomePreçoFrequênciap-001BásicoR$ 79,901x por semanap-002PlusR$ 139,902x por semanap-003PremiumR$ 219,904x por semana
