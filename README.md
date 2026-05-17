@@ -137,12 +137,5 @@ Fluxo com plano **Básico** e tentativa de pagamento via cartão de crédito inv
 | `p-002` | Plus | R$ 139,90 | 2x por semana |
 | `p-003` | Premium | R$ 219,90 | 4x por semana |
 
----
-
-
-
-## 👥 Equipe
-
-Desenvolvido por Matheus Gonçalves dos Santos sobre Orientação da Professora Ana Claudia Rossi
 
 ---
