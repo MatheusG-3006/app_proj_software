@@ -82,7 +82,9 @@ bashjava -cp out feira.Main
 
 🧪 Cenários de Execução
 O Main demonstra dois cenários automaticamente ao rodar:
+
 ✅ Cenário 1 — Assinatura bem-sucedida (PIX)
+
 Fluxo completo com autenticação via OTP, seleção do plano Plus, montagem de cesta com 4 itens e pagamento aprovado via PIX:
 [PagamentoService] Pagamento APROVADO — TXN-F4FCDE42-A50
 
@@ -90,6 +92,7 @@ Fluxo completo com autenticação via OTP, seleção do plano Plus, montagem de 
 ║  ✓ Assinatura ativada com sucesso!       ║
 ║  Próxima entrega: 2026-05-24             ║
 ╚══════════════════════════════════════════╝
+
 ❌ Cenário 2 — Pagamento recusado (cartão inválido)
 Fluxo com plano Básico e tentativa de pagamento via cartão de crédito inválido:
 [PagamentoService] Pagamento RECUSADO. Tente novamente.
